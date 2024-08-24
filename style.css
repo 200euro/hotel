@@ -195,6 +195,10 @@ margin-bottom: 70px;
 .btns2{
    display: flex;
    gap: 20px;
+
+   :nth-child(2) {
+      rotate: 180deg;
+   }
 }
 
 .section2{
@@ -267,4 +271,144 @@ width: 100%;
    background-color:#14274A ;
    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
    margin: 0 auto;
+}
+
+
+
+.face {
+}
+.container {
+}
+.face__title {
+   padding: 80px 0;
+   text-align: center;
+color: #14274A;
+
+   h2{
+      margin-bottom: 35px;
+      font-size: 45px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: 'Times New Roman', Times, serif;
+   }
+
+   p{
+      font-size: 22px;
+   }
+}
+.face__wraper {
+   display: flex; 
+   flex-direction: column;
+   gap: 100px;
+}
+.face__card {
+display: flex;
+justify-content: center;
+position: relative;
+
+   img{
+      height: 600px;
+      width: 100%;
+      object-fit: cover;
+
+      @media (max-width: 800px) {
+         height: 400px;
+      }
+   }
+
+
+   h3{
+   position: absolute;
+   bottom: 0;
+background-color: white;
+max-width: 400px;
+width: 100%;
+text-align: center;
+padding-top: 10px;
+
+
+   }
+}
+
+
+
+
+
+.rooms {
+}
+.container {
+}
+.face__title {
+}
+.rooms__wraper {
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+
+
+}
+.rooms__card {
+
+   overflow: hidden;
+   border:  1px solid #14274A;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+
+   img{
+      object-fit: cover;
+      height: 580px;
+      width: 100%;
+      @media (max-width: 800px) {
+         height: 350px;
+      }
+   }
+
+   h3{
+      color: white;
+      background-color: #14274A;
+      font-size: 45px;
+      padding: 40px 0;
+      text-align: center;
+   
+      @media (max-width: 800px) {
+         font-size: 30px;
+      }
+
+   }
+
+   div{
+      flex-wrap: wrap;
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+padding: 60px 0;
+gap: 40px;
+
+max-width: 800px;
+width: 90%;
+margin: 0 auto;
+h4{
+   margin-right: auto;
+}
+p{
+   background-color: #E0B973;
+   width: 40px;
+   height: 40px;
+   color: white;
+   border-radius: 50%;
+   font-size: 50px;
+   line-height: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+h4{
+   color: 
+   #14274A;
+}
+
+
+   }
 }
